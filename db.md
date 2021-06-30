@@ -1,11 +1,12 @@
 CARATTERISTICHE TECNICHE AUTO
 =======
 #informazioni generali
-- Marca                                             VARCHAR
-- Modello                                           VARCHAR
-- Generazione	                                    SMALLINT 
-- Cilindrata Motore 	                            TINYINT         1,1
-- Cavalli Motore                                    SMALLINT        6,0
+- Id                                                BIGINT PRIMARY KEY UNIQUE NOTNULL
+- Marca                                             VARCHAR NOTNULL
+- Modello                                           VARCHAR NOTNULL
+- Generazione	                                    SMALLINT UNIQUE NOTNULL
+- Cilindrata Motore 	                            TINYINT NOTNULL        1,1
+- Cavalli Motore                                    SMALLINT NOTNULL       6,0
 - Inizio anno di produzione	                        SMALLINT YEAR
 - Fine anno di produzione	                        SMALLINT YEAR
 - Architettura dell'unità di potenza	            VARCHAR
@@ -15,7 +16,7 @@ CARATTERISTICHE TECNICHE AUTO
 - Prezzo                                            SMALLINT        3,0
 
 #Prestazioni
-- Tipo carburante	                                VARCHAR
+- Tipo carburante	                                VARCHAR NOTNULL
 - Accelerazione 0 - 100 km/h	                    TINYINT         2,1
 - Accelerazione 0 - 62 mph	                        TINYINT         1,1
 - Accelerazione 0 - 60 mph                          TINYINT         1,1
