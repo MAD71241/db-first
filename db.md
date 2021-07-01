@@ -25,10 +25,8 @@ CARATTERISTICHE TECNICHE AUTO
 
 #Motore
 
-Sistema di alimentazione	                        VARCHAR
-Aspirazione del motore	                            VARCHAR
-Potenza	                                            VARCHAR
-Capacità per litro di volume di lavoro          	TINYINT         2,1
-Coppia massima	169 Nm @ 3500 giri/min              VARCHAR
-124.65 lb.-ft. @ 3500 giri/min                      VARCHAR
-Posizione del motore                                VARCHAR
+- Sistema di alimentazione	                        VARCHAR
+- Aspirazione del motore	                        VARCHAR
+- Potenza	                                        VARCHAR
+- Capacità per litro di volume di lavoro          	TINYINT         2,1
+- Coppia massima                                    VARCHAR
